@@ -1,4 +1,5 @@
-VERSION: 2022-03-23-V10
+# VERSION: 2022-05-28-V111
+# Uses robocopy in microsoft windows
 path C:\Windows\System32
 # Backup to another system on the network
 robocopy D:\dir1 \\computer_on_network\dir1 /MIR /FFT /Z /XA:H /W:5 /LOG+:F:\Batch\logs\logs.txt /TEE
